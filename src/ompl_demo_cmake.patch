@@ -1,0 +1,7 @@
+--- a/demos/CMakeLists.txt
++++ b/demos/CMakeLists.txt
+@@ -18,2 +18,4 @@
+     add_ompl_demo(demo_SSTPinballPlanning SSTPinballPlanning.cpp)
++    # XY-only Neural-SST demo: all sampling and SST expansion stay in C++.
++    add_ompl_demo(NeuralSSTXY NeuralSSTXY.cpp)
+     add_ompl_demo(demo_PinballPlanning PinballPlanning.cpp)

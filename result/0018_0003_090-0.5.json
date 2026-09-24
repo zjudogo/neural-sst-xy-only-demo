@@ -1,0 +1,186 @@
+{
+  "task_file": "/home/lizhequan/codex/99.thesis/45.neural_sst_xy_only_demo/dataset/test/0018_0003_090.json",
+  "run_id": "0018_0003_090-0.5",
+  "sample_id": "0018_0003_090",
+  "xy_bias": 0.5,
+  "seed": 20260713,
+  "map_id": 18,
+  "pair_id": 3,
+  "start_yaw_deg": 90,
+  "task_name": "0018_0003_090",
+  "rectangle_obstacles": [
+    [
+      174,
+      63,
+      19,
+      21
+    ],
+    [
+      79,
+      135,
+      24,
+      23
+    ],
+    [
+      184,
+      168,
+      20,
+      16
+    ],
+    [
+      194,
+      220,
+      19,
+      17
+    ],
+    [
+      39,
+      54,
+      18,
+      20
+    ],
+    [
+      16,
+      36,
+      21,
+      17
+    ],
+    [
+      182,
+      69,
+      17,
+      22
+    ],
+    [
+      26,
+      166,
+      17,
+      19
+    ],
+    [
+      103,
+      26,
+      19,
+      21
+    ],
+    [
+      190,
+      149,
+      23,
+      19
+    ]
+  ],
+  "circle_obstacles": [
+    [
+      196,
+      40,
+      20
+    ],
+    [
+      48,
+      68,
+      24
+    ],
+    [
+      92,
+      1,
+      16
+    ],
+    [
+      132,
+      201,
+      16
+    ],
+    [
+      50,
+      95,
+      24
+    ],
+    [
+      199,
+      107,
+      21
+    ],
+    [
+      153,
+      148,
+      19
+    ],
+    [
+      213,
+      195,
+      24
+    ],
+    [
+      152,
+      8,
+      17
+    ],
+    [
+      83,
+      204,
+      24
+    ],
+    [
+      118,
+      174,
+      22
+    ],
+    [
+      166,
+      206,
+      20
+    ]
+  ],
+  "start_pixel": [
+    22,
+    4
+  ],
+  "goal_pixel": [
+    91,
+    169
+  ],
+  "start": {
+    "x": -4.5,
+    "y": 5.400000095367432,
+    "yaw": 1.5707963267948966
+  },
+  "goal": {
+    "x": -1.0499999523162842,
+    "y": -2.8499999046325684
+  },
+  "model_time_ms": 3.8509750011144206,
+  "visualization": "0018_0003_090-0.5.jpg",
+  "success": false,
+  "solution_level": "failed",
+  "termination_reason": "iteration_limit",
+  "planning_time_s": 0.0245846,
+  "first_solution_iterations": 50001,
+  "state_sample_calls": 50000,
+  "xy_probability_samples": 24967,
+  "xy_uniform_samples": 25033,
+  "state_sequence": [
+    [
+      -4.5,
+      5.4,
+      1.5708
+    ],
+    [
+      -4.49523,
+      5.47981,
+      1.45135
+    ]
+  ],
+  "control_sequence": [
+    -0.457813
+  ],
+  "control_segments": [
+    {
+      "steering_rad": -0.457813,
+      "duration_s": 0.04
+    }
+  ],
+  "duration_s": 0.04,
+  "path_length_m": 0.07995241709917143,
+  "final_error_m": 9.01417456724561
+}

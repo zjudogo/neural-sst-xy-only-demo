@@ -1,0 +1,166 @@
+{
+  "task_file": "/home/lizhequan/codex/99.thesis/45.neural_sst_xy_only_demo/dataset/test/0085_0003_210.json",
+  "run_id": "0085_0003_210-0.0",
+  "sample_id": "0085_0003_210",
+  "xy_bias": 0.0,
+  "seed": 20260713,
+  "map_id": 85,
+  "pair_id": 3,
+  "start_yaw_deg": 210,
+  "task_name": "0085_0003_210",
+  "rectangle_obstacles": [
+    [
+      31,
+      98,
+      18,
+      24
+    ],
+    [
+      89,
+      65,
+      21,
+      17
+    ],
+    [
+      96,
+      91,
+      23,
+      21
+    ],
+    [
+      182,
+      28,
+      23,
+      21
+    ],
+    [
+      100,
+      139,
+      19,
+      16
+    ],
+    [
+      173,
+      107,
+      23,
+      16
+    ],
+    [
+      122,
+      110,
+      22,
+      18
+    ],
+    [
+      167,
+      204,
+      21,
+      17
+    ],
+    [
+      111,
+      35,
+      21,
+      19
+    ],
+    [
+      193,
+      217,
+      24,
+      22
+    ]
+  ],
+  "circle_obstacles": [
+    [
+      15,
+      98,
+      20
+    ],
+    [
+      113,
+      3,
+      19
+    ],
+    [
+      185,
+      203,
+      24
+    ],
+    [
+      126,
+      181,
+      21
+    ],
+    [
+      197,
+      83,
+      16
+    ],
+    [
+      148,
+      25,
+      20
+    ],
+    [
+      164,
+      54,
+      20
+    ],
+    [
+      156,
+      31,
+      16
+    ]
+  ],
+  "start_pixel": [
+    54,
+    101
+  ],
+  "goal_pixel": [
+    170,
+    6
+  ],
+  "start": {
+    "x": -2.9000000953674316,
+    "y": 0.550000011920929,
+    "yaw": -2.617993877991494
+  },
+  "goal": {
+    "x": 2.9000000953674316,
+    "y": 5.300000190734863
+  },
+  "model_time_ms": 17.385832994477823,
+  "visualization": "0085_0003_210-0.0.jpg",
+  "success": false,
+  "solution_level": "failed",
+  "termination_reason": "iteration_limit",
+  "planning_time_s": 0.0300182,
+  "first_solution_iterations": 50001,
+  "state_sample_calls": 50000,
+  "xy_probability_samples": 0,
+  "xy_uniform_samples": 50000,
+  "state_sequence": [
+    [
+      -2.9,
+      0.55,
+      -2.61799
+    ],
+    [
+      -2.97109,
+      0.513377,
+      -2.71377
+    ]
+  ],
+  "control_sequence": [
+    -0.37627
+  ],
+  "control_segments": [
+    {
+      "steering_rad": -0.37627,
+      "duration_s": 0.04
+    }
+  ],
+  "duration_s": 0.04,
+  "path_length_m": 0.07996894540382528,
+  "final_error_m": 7.575055146862125
+}
