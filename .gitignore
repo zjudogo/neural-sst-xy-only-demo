@@ -4,3 +4,5 @@ build/
 *.pt
 *.pth
 !checkpoint/best.pt
+/doc/
+/.vscode/
